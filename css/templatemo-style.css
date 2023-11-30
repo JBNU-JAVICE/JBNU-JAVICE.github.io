@@ -172,6 +172,7 @@ header .social-icon li a
 	}
 .navbar-default .navbar-brand
 	{
+		font-family: 'Supply Center', sans-serif;
 		font-weight: 500;
 		font-size: 30px;
 		height: 70px;
