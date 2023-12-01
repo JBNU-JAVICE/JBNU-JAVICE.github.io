@@ -4,15 +4,7 @@ $(function(){
 
     /* start typed element */
     //http://stackoverflow.com/questions/24874797/select-div-title-text-and-make-array-with-jquery
-    var subElementArray = $.map($('.sub-element'), function(el) { return $(el).text(); });    
-    $(".element").typed({
-        strings: subElementArray,
-        typeSpeed: 30,
-        contentType: 'html',
-        showCursor: false,
-        loop: true,
-        loopCount: true,
-    });
+
     /* end typed element */
 
 
@@ -182,3 +174,10 @@ window.addEventListener('load', function() {
         setHeight();
     });
 });
+
+
+/*이산수학  -> 1일
+데이터 통신
+컴퓨터 구조
+알고리즘
+*/
