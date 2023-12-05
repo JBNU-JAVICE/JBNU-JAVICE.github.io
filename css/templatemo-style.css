@@ -251,6 +251,17 @@ header .social-icon li a
 .element {
 	height: 60px;
 	font-size: 16px;
+	font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.element h3 {
+    display: inline;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.element p {
+    margin-bottom: 10px;
 }
 
 /* end home */
@@ -532,16 +543,71 @@ header .social-icon li a
 		background: #28a7e9;
 		border-color: transparent;
 	}
-/* end social icon */
+	/* end social icon */
 
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
+/* start 1200 media quires */
+@media only screen and (min-width: 1200px) {
 	#portfolio .portfolio-thumb .portfolio-overlay {
 		padding: 0px 8px;
 	}
-}
+	#home
+		{
+			min-height: 300px;
+			padding-top: 80px;
+			padding-bottom: 60px;
+			height: 90vh; /* 원하는 높이로 설정 */
+			background-position: 100% 100%;
+		}
+	#home h1
+		{
+			font-size: 52px;
+		}
 
-/* start 980 media quires */
-@media only screen and ( max-width: 980px ) {
+	}
+
+/* end 1200 media quires */
+
+
+	/* start 992 media quires */
+	@media only screen and (min-width: 992px) and (max-width: 1199px) {
+		#team .team-wrapper
+		{
+			margin-top: 40px;
+		}
+	#portfolio .portfolio-thumb .portfolio-overlay
+	{
+		background: #28a7e9;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		position: absolute;
+		padding: 40px 10px 20px 20px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+	#home
+			{
+				min-height: 300px;
+				padding-top: 80px;
+				padding-bottom: 60px;
+				height: 90vh; /* 원하는 높이로 설정 */
+				background-position: 100% 100%;
+			}
+		#home h1
+			{
+				font-size: 52px;
+			}
+	
+	}
+	
+	/* end 992 media quires */
+
+/* start 992 media quires */
+@media only screen and ( max-width: 992px ) {
 	#team .team-wrapper
 		{
 			margin-top: 40px;
@@ -561,9 +627,17 @@ header .social-icon li a
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
+	#home{
+		height: 90vh; /* 원하는 높이로 설정 */
+		background-position: 100% 100%;
+	}
+	#home h1
+			{
+				font-size: 46px;
+			}
 
 }
-/* end 360 media quires */
+/* end 992 media quires */
 
 /* start 768 media quires */
 @media only screen and ( max-width: 767px ) {
@@ -572,10 +646,12 @@ header .social-icon li a
 			min-height: 300px;
 			padding-top: 80px;
 			padding-bottom: 60px;
+			height: 90vh; /* 원하는 높이로 설정 */
+			background-position: 100% 100%;
 		}
 	#home h1
 		{
-			font-size: 52px;
+			font-size: 40px;
 		}
 
 	.templatemo-nav {
@@ -604,8 +680,8 @@ header .social-icon li a
 }
 /* end 768 media quires */
 
-/* start 360 media quires */
-@media only screen and ( max-width: 360px ) {
+/* start 600 media quires */
+@media only screen and ( max-width: 600px ) {
 	header .social-icon
 		{
 			text-align: left;
@@ -615,11 +691,15 @@ header .social-icon li a
 			min-height: 200px;
 			padding-top: 60px;
 			padding-bottom: 40px;
-		}
+			height: 90vh; /* 원하는 높이로 설정 */
+			font-size: 5vw;
+			background-position: 100% 100%;
+			}
 	#home h1
 		{
-			font-size: 32px;
+			font-size: 6vw;
 		}
 
+
 }
-/* end 360 media quires */
+/* end 600 media quires */
