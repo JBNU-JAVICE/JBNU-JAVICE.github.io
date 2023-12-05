@@ -278,6 +278,9 @@ header .social-icon li a
 #team .team-wrapper
 	{
 		background: #404040;
+		max-width: 100%; /* 원하는 최대 너비로 설정 */
+    width: auto;
+    height: 500px;
 		padding-bottom: 10px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
